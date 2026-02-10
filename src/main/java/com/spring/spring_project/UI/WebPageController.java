@@ -1,11 +1,11 @@
-package com.spring.spring_project.Controllers;
+package com.spring.spring_project.UI;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
-public class UiController {
+public class WebPageController {
 
     @GetMapping("/")
     public String home(Model model) {
